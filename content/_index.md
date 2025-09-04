@@ -1,4 +1,4 @@
-Enjoyer of Windows kernel exploitation, reverse engineering, and hypervisors, who recently started participating in CTFs.
+Enjoyer of Windows kernel exploitation, reverse engineering, and hypervisors; recently started participating in CTFs.
 
 ##### Team
 - Hack@Sec
