@@ -4,6 +4,7 @@ Enjoyer of Windows kernel exploitation, reverse engineering, and hypervisors; re
 - Hack@Sec
 
 ##### Participations
-- corCTF (2025)
+- Nullcon HackIM CTF Berlin 2025
+- corCTF 2025
 
 Feel free to reach out at contact@vmpr0be.com
