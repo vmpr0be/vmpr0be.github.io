@@ -2,7 +2,7 @@
 author = "vmpr0be"
 title = "CrewCTF 2025 - SMM & IPI 1"
 date = "2025-09-21"
-categories = ["ctf", "pwn"]
+categories = ["ctf"]
 +++
 
 # CrewCTF 2025 - SMM & IPI 1
@@ -39,7 +39,7 @@ By contrast, on a non-hot-plugged CPU, SMBASE is usually relocated into SMRAM.
 
 ### Exploitation
 
-Since the SMI handler isn’t protected, when the hot-plugged CPU is added it will start its execution at the unprotected SMI handler at `SMBASE + 0x8000`. We can patch that handler with our own code to read the flag from `0x44440000`.
+Since the SMI handler isn’t protected, when the hot-plugged CPU is added it will start its execution at the unprotected SMI handler at `SMBASE + 0x8000` (in this case: `0x38000`). We can patch that handler with our own code to read the flag from `0x44440000`.
 
 When the interrupted CPU core switches to SMM, it expects the SMI handler to contain 16-bit instructions, so our injected shellcode must be 16-bit.
 
