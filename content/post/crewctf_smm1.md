@@ -61,7 +61,7 @@ The shellcode basically does the following:
 - Read the flag from 0x44440000.
 - Write the flag to our storage 0x1000.
 
-```
+```C
 mov esi, 0x44440000   ; the flag address
 mov edi, 0x1000       ; memory accessible by us
 mov ecx, 64           ; bytes to be copied
