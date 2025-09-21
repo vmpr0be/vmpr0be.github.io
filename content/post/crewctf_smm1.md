@@ -45,7 +45,7 @@ When the interrupted CPU core switches to SMM, it expects the SMI handler to con
 
 We need a physical region accessible outside SMM where we can store the flag read by our shellcode.
 
-```
+```bash
 crewctf-2025:/root# cat /proc/iomem
 ...
 00001000-0009ffff : System RAM
