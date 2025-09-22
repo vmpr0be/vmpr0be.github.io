@@ -160,6 +160,3 @@ Shellcode written to 0x38000
 ...
 Flag: crew{but_why_isnt_addcpu_working_*REMOVED*}
 ```
-
-### Credits
-- Claude for writing the kernel driver and the reveal program.
