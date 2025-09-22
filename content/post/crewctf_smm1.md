@@ -5,8 +5,6 @@ date = "2025-09-21"
 categories = ["ctf"]
 +++
 
-# CrewCTF 2025 - SMM & IPI 1
-
 ### Vocabulary
 
 - SMM: System Management Mode, a highly privileged CPU mode.
