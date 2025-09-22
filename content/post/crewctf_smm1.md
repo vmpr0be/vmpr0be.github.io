@@ -119,15 +119,8 @@ int main() {
     printf("Shellcode written to 0x38000\n");
 
     munmap(map, 0x1000);
-    close(fd);
 
     system("./addcpu.sh");
-
-    fd = open("/dev/mem", O_RDONLY);
-    if (fd < 0) {
-        perror("open /dev/mem for read");
-        return 1;
-    }
 
     map = mmap(NULL, 64, PROT_READ, MAP_SHARED, fd, 0x1000);
     if (map == MAP_FAILED) {
