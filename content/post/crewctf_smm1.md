@@ -14,14 +14,14 @@ categories = ["ctf"]
 
 ### Overview
 
-"You know what else OVMF does with SMM? CPU hotplugging. So I took a look.
-**Flag is at physical memory `0x44440000` when read from SMM**."
+" You know what else OVMF does with SMM? CPU hotplugging. So I took a look.
+**Flag is at physical memory `0x44440000` when read from SMM**. "
 
 This means we need to read the flag while the CPU is in SMM.
 
 ##### Hint
 
-"I disabled something I should not have disabled. This link might help you understand what is going on: https://lore.kernel.org/all/8091f6e8-b1ec-f017-1430-00b0255729f4@redhat.com/T/"
+" I disabled something I should not have disabled. This link might help you understand what is going on: https://lore.kernel.org/all/8091f6e8-b1ec-f017-1430-00b0255729f4@redhat.com/T/ "
 
 The author also stated that interrupt logs can be extracted with a special flag:
 ``
