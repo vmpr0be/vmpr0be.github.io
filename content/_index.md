@@ -5,8 +5,8 @@ Enjoyer of Windows kernel exploitation, reverse engineering, and hypervisors; re
 
 ##### Participations
 - CrewCTF 2025
-- DefCamp Capture the Flag (D-CTF) 2025 Quals
-- BlackHat MEA Qualification CTF 2025
+- DefCamp CTF 2025 Quals
+- BlackHat MEA Quals CTF 2025
 - Nullcon HackIM CTF Berlin 2025
 - corCTF 2025
 
