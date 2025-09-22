@@ -12,12 +12,12 @@ categories = ["ctf"]
 - SMM: System Management Mode, a highly privileged CPU mode.
 - SMRAM: A special region of memory that is only accessible from SMM.
 - SMI: An interrupt that halts current execution and switches the CPU to SMM.
-- SMBASE: The base of the memory region used for SMM components (e.g., the SMI handler and saved execution state). The default SMBASE is 0x30000.
+- SMBASE: The base of the memory region used for SMM components (e.g., the SMI handler and saved execution state). The default SMBASE is `0x30000`.
 
 ### Overview
 
 "You know what else OVMF does with SMM? CPU hotplugging. So I took a look.
-**Flag is at physical memory 0x44440000 when read from SMM**."
+**Flag is at physical memory `0x44440000` when read from SMM**."
 
 This means we need to read the flag while the CPU is in SMM.
 
@@ -58,11 +58,11 @@ We’ll use `0x00001000` as storage.
 
 The shellcode basically does the following:
 
-- Read the flag from 0x44440000.
-- Write the flag to our storage 0x1000.
+- Read the flag from `0x44440000`.
+- Write the flag to our storage `0x1000`.
 
 ```C
-mov esi, 0x44440000   ; the flag address
+mov esi, 0x44440000   ; storage address
 mov edi, 0x1000       ; memory accessible by us
 mov ecx, 64           ; bytes to be copied
 
@@ -139,9 +139,9 @@ int main() {
 ```
 
 Similarly, we compile and run this program, which will:
-- Inject shellcode at 0x38000.
+- Inject shellcode at `0x38000`.
 - Run the ./addcpu.sh script.
-- Read the flag from 0x1000.
+- Read the flag from `0x1000`.
 
 ```bash
 gcc reveal.c -o reveal
