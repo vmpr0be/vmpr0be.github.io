@@ -5,7 +5,7 @@ date = "2025-09-29"
 categories = ["ctf"]
 +++
 
-## Overview
+### Overview
 
 We are given 6 files:
 - `runpeg`: an interpreter and debugger for the Pegasus bytecode.
@@ -171,7 +171,7 @@ Thread state:
 
 Immediately after the executable starts (without even sending `forgot` command), it calls `gimli_absorb_byte`. Since we haven't provided any input yet, it's reasonable to assume the secret code is being hashed when the program is initialized.
 
-We also notice that only one argument contain within the register `A1` changes between successive calls to `gimli_absorb_byte`. Therefore, `A1` register likely contains the byte of the secret code.
+We also notice that only one argument contained within the register `A1` changes between successive calls to `gimli_absorb_byte`. Therefore, `A1` register likely contains the byte of the secret code.
 
 By repeatedly capturing each call to `gimli_absorb_byte`, we can extract every byte passed to the function and recover the secret code.
 
