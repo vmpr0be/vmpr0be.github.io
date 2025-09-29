@@ -59,7 +59,7 @@ FA00-FDFF: R=INV::F0 W=INV::F0 X=INV::FF  @STACK
 FE00-FFFF: R=INV::FF W=INV::FF X=INV::FF
 ```
 
-There are multiple memory segments. One of them is named @TEXT and ranges from `0x300` to `0x8FF`; it contains the executable code (similar to a .text section). Let's disassemble it.
+There are multiple memory segments. One of them is named `@TEXT` and ranges from `0x300` to `0x8FF`; it contains the executable code (similar to a `.text` section). Let's disassemble it.
 
 
 ```python
