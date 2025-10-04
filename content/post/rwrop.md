@@ -37,7 +37,7 @@ To leak the stack, we first need the offset of the `__libc_stack_end_ptr` global
 Using the already leaked LIBC base address, we calculate the absolute address of `__libc_stack_end_ptr` in memory: 
 
 ```python
-__libc_stack_end_ptr = libc_base + __libc_stack_end_ptr_offset.
+__libc_stack_end_ptr = libc_base + __libc_stack_end_ptr_offset
 ```
 
 Then, we use the read primitive twice: first to read the value of `__libc_stack_end_ptr` (which is the address of `__libc_stack_end`), and then to read the contents of `__libc_stack_end` (which is the address of the stack end itself).
