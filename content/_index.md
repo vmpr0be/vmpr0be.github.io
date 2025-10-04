@@ -4,6 +4,7 @@ Enjoyer of Windows kernel exploitation, reverse engineering, and hypervisors; re
 - Hack@Sec
 
 ##### Participations
+- Securinets CTF Quals 2025
 - SunshineCTF 2025
 - CrewCTF 2025
 - DefCamp CTF 2025 Quals
