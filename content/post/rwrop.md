@@ -5,12 +5,6 @@ date = "2025-10-04"
 categories = ["dev"]
 +++
 
-## Vocabulary
-- **RA**: stands for Return Address
-- **Arbitrary write**: A primitive that allows writing to any valid memory address.
-- **Arbitrary read**: A primitive that allows reading from any valid memory address.
-- **Stack end**: The highest memory address of the stack region. It is also the highest address that the stack pointer should hold.
-
 ## Overview
 
 rwROP stands for read/write ROP. This method is not new, but I would like to shed some light on its potential, as it is not frequently used, especially in CTFs. As the name suggests, it uses read and write primitives to achieve ROP easily without direct control of the stack.
@@ -70,11 +64,10 @@ You can optionally write variables (e.g., immediate values for POP instructions)
 *An example of its usage in SunshineCTF 2025 (HeapX):*
 ```python
 # arb_write_ptr is a wrapper that writes a 64-bit integer as 8 bytes to memory.
-
 # In this example, the stack_end - 0x148 is the address of the return address when the write operation happens, remember that this will be different on your side.
-
 # he write operation itself will overwrite its own return address, thus causing execution to jump to our one_gadget.
 
+# RA: Return Address
 one_gadget = libc.address + 0xf72d2
 RA_offset = 0x148
 RA_address = stack_end - RA_offset
