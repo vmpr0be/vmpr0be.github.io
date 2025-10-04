@@ -7,7 +7,7 @@ categories = ["dev"]
 
 ## Overview
 
-rwROP stands for read/write ROP. This method is not new, but I would like to shed some light on its potential. As the name suggests, it uses read and write primitives to achieve ROP easily without direct control of the stack.
+rwROP stands for read/write ROP. This is nothing new, but I would like to shed some light on its potential. As the name suggests, it uses read and write primitives to achieve ROP easily without direct control of the stack.
 
 This technique is especially useful when dealing with later versions of libc, which have many protections against function pointer hijacking.
 
