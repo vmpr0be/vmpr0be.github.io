@@ -78,4 +78,4 @@ arb_write_ptr(RA_address, one_gadget)
 ```
 
 ### Notice
-- Thanks to ElChals for pointing it out—this method isn't limited to `__libc_stack_end`; it can also be used with the `environ` global variable.
+- Special thanks to ElChals for letting me know that this method isn't limited to `__libc_stack_end`; it can also be used with the `environ` global variable.
