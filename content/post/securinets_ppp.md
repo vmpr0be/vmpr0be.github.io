@@ -66,7 +66,7 @@ The vulnerability is in the check function, it keeps disassembling instructions 
 
 To exploit this vulnerability, we need to find an instruction that is valid to execute by the CPU but considered invalid for the disassembler.
 
-Luckily there's [a still open issue](https://github.com/capstone-engine/capstone/issues/2442) about an instruction that isn't correctly disassembled wich is then deemed invalid.
+Luckily there's [a still open issue](https://github.com/capstone-engine/capstone/issues/2442) about an instruction that isn't correctly disassembled which is then deemed invalid.
 After slight edit of the problematic instruction, we end up with the following instruction:
 ```
 movsxd ecx, eax 
