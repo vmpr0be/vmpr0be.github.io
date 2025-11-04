@@ -27,7 +27,7 @@ The author also stated that interrupt logs can be extracted with a special flag:
 ``
 -D interrupts.log -d int
 ``.
-After hot-plugging the CPU with `./addcpu.sh`, we can see three SMIs triggered, meaning the newly plugged CPU is actually executing.
+After hot-plugging the CPU with `./addcpu.sh`, we can see 3 SMIs triggered, meaning the newly plugged CPU is actually executing.
 
 ### Vulnerability
 
