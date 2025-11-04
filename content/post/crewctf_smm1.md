@@ -136,7 +136,7 @@ int main() {
 }
 ```
 
-Similarly, we compile and run this program, which will:
+Finally, we compile and run this program, which will:
 - Inject shellcode at `0x38000`.
 - Run the ./addcpu.sh script.
 - Read the flag from `0x1000`.
