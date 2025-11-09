@@ -15,4 +15,6 @@ Enjoyer of Windows kernel exploitation, reverse engineering, and hypervisors; re
 - Nullcon HackIM CTF Berlin 2025
 - corCTF 2025
   
-Feel free to reach out at contact@vmpr0be.com
+Feel free to reach out at
+Email: contact@vmpr0be.com
+Discord: vmpr0be
