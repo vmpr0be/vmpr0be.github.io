@@ -2,8 +2,11 @@ Enjoyer of Windows kernel exploitation, reverse engineering, and hypervisors; re
 
 ##### Team
 - Hack@Sec
+- Th3 4rchi73cts
 
 ##### Participations
+- BuckeyeCTF 2025
+- Cyber Odyssey 2025 Quals (👑)
 - Securinets CTF Quals 2025
 - SunshineCTF 2025
 - CrewCTF 2025
