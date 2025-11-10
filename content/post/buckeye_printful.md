@@ -146,7 +146,7 @@ def arb_read(address, size):
         # Need to get everything before the delimiter
         data += r.recvuntil(b"----", drop=True)
 
-        # Since the printing will only stop at a null character, so I need compensate for it
+        # Since the printing will only stop at a null character, I need compensate for it
         data += p8(0)
 
     # Return only what was requested
