@@ -187,7 +187,7 @@ Because **x86 isn't self synchronizing**, the disassembly may not be aligned whi
 7f3d00cf9083: mov  edi, eax                      # LIBC return address (libc_ret)
 ```
 
-As mentioned previously, the first 3 digits of every address are always constant (since ASLR randomization happens on a page level). this is the main reason why [libc database search tools](https://libc.blukat.me/) exist, they work by looking up symbols offsets that have the sames 3 first digits.
+As mentioned previously, the first 3 digits of every address are always constant (since ASLR randomization happens on a page level). this is the main reason why [libc database search tools](https://libc.blukat.me/) exist, they work by looking up symbol offsets that have the sames first constant digits.
 
 On most recent LIBC versions, there's a global variable called `__environ` which is accessed when calling the main function (that's where the `envp` comes from), meaning that now I have the address of `__environ` global variable (`0x7fca4599eeb0`), I can also dump further instructions and target more symbols to narrow down the results.
 
