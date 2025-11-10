@@ -14,7 +14,3 @@ Enjoyer of Windows kernel exploitation, reverse engineering, and hypervisors; re
 - BlackHat MEA Quals CTF 2025
 - Nullcon HackIM CTF Berlin 2025
 - corCTF 2025
-  
-##### Contact
-- Email: contact@vmpr0be.com
-- Discord: vmpr0be
