@@ -17,6 +17,13 @@ title = "Posts"
 url = "/post/"
 weight = -100
 
+[[menu.main]]
+identifier = "contact"
+name = "Contact"
+title = "Contact"
+url = "/contact/"
+weight = -80
+
 [params]
 description = "vmpr0be's blog"
 header_title = "vmpr0be"
