@@ -1,7 +1,7 @@
 +++
 author = "vmpr0be"
 title = "BuckeyeCTF 2025 - Printful"
-date = "2025-11-09"
+date = "2025-11-10"
 categories = ["ctf"]
 +++
 
