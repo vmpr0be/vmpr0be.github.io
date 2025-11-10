@@ -171,7 +171,7 @@ disassembled = disasm(raw_data , vma=backward_addr)
 print(disassembled.rstrip())
 ```
 
-Because **x86 uses isn't self synchronizing**, the disassembly may not be aligned which results in bad instructions, you might need to try multiple offsets until the last call instruction is printed. After a few attempts, this is what I ended up with:
+Because **x86 isn't self synchronizing**, the disassembly may not be aligned which results in bad instructions, you might need to try multiple offsets until the last call instruction is printed. After a few attempts, this is what I ended up with:
 
 ```bash
 [*] saved_rbp: 0x7fff85c63660
