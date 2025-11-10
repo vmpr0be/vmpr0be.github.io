@@ -35,7 +35,7 @@ Welcome to printful! Enter 'q' to quit
 
 As I can see from the address (`0x55af2154c00b`) returned, **the application is indeed vulnerable to a format string vulnerability**. If it were not, the `%p` itself would have been printed back.
 
-This effectively gives us an **arbitrary read/write primitive**. The read primitive can be used to dump memory and gather information about the application's environment (for example, stack, libc base and version), I’ll come back to that later.
+This effectively gives an **arbitrary read/write primitive**. The read primitive can be used to dump memory and gather information about the application's environment (for example, stack, libc base and version), I’ll come back to that later.
 
 P.S. I also tested for a buffer overflow (BOF) by sending long input to crash the application, but it didn't work.
 
@@ -143,7 +143,7 @@ def arb_read(address, size):
         r.sendlineafter(b"> ", payload)
 
         # Example: b"\x??\x??\x??\x??...\x??----"
-        # I need to get everything before the delimiter
+        # Need to get everything before the delimiter
         data += r.recvuntil(b"----", drop=True)
 
         # Since the printing will only stop at a null character, so I need compensate for it
