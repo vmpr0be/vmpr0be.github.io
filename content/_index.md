@@ -16,5 +16,5 @@ Enjoyer of Windows kernel exploitation, reverse engineering, and hypervisors; re
 - corCTF 2025
   
 Feel free to reach out at
-Email: contact@vmpr0be.com
-Discord: vmpr0be
+- Email: contact@vmpr0be.com
+- Discord: vmpr0be
