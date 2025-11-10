@@ -12,7 +12,6 @@ categories = ["ctf"]
 This challenge is essentially a black-box: the remote application's **source code and binary are not provided**, so I must discover its behavior and find the vulnerability by interacting with it remotely. All we’re given is the IP address and port.
 
 ### Exploring
-
 #### Discovering the vulnerability
 
 My methodology for black-box challenges is to gather as much information about the application as possible. The challenge name is called **"printful"**, which made me think of the C library function `printf`, which made me suspect a [format string vulnerability](https://ctf101.org/binary-exploitation/what-is-a-format-string-vulnerability/).
