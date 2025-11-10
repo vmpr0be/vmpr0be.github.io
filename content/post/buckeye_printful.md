@@ -178,13 +178,13 @@ Because **x86 uses isn't self synchronizing**, the disassembly may not be aligne
 [*] libc_ret: 0x7f3d00cf9083
 
 ...
-7f3d00cf9069: mov    rax, QWORD PTR [rip+0x1c7e40]        # 0x7f3d00ec0eb0 (__environ)
-7f3d00cf9070: mov    rsi, QWORD PTR [rsp+0x8]             # argv
-7f3d00cf9075: mov    edi, DWORD PTR [rsp+0x14]            # argc
-7f3d00cf9079: mov    rdx, QWORD PTR [rax]                 # envp
-7f3d00cf907c: mov    rax, QWORD PTR [rsp+0x18]            # gets the main function address
-7f3d00cf9081: call   rax                                  # calls main function
-7f3d00cf9083: mov    edi, eax                             # LIBC return address (libc_ret)
+7f3d00cf9069: mov  rax, QWORD PTR [rip+0x1c7e40] # 0x7f3d00ec0eb0 (__environ)
+7f3d00cf9070: mov  rsi, QWORD PTR [rsp+0x8]      # argv
+7f3d00cf9075: mov  edi, DWORD PTR [rsp+0x14]     # argc
+7f3d00cf9079: mov  rdx, QWORD PTR [rax]          # envp
+7f3d00cf907c: mov  rax, QWORD PTR [rsp+0x18]     # gets the main function address
+7f3d00cf9081: call rax                           # calls main function
+7f3d00cf9083: mov  edi, eax                      # LIBC return address (libc_ret)
 ```
 
 As mentioned previously, the first 3 digits of every address are always constant (since ASLR randomization happens on a page level). this is the main reason why [libc database search tools](https://libc.blukat.me/) exist, they work by looking up symbols offsets that have the sames 3 first digits.
