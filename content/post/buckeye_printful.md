@@ -236,7 +236,7 @@ constraints:
   [rdx] == NULL || rdx == NULL || rdx is a valid envp
 ```
 
-Unfortunately, **we don't know the CPU state when the arbitrary address is executed**. Thus, we can't know if one gadget meets the constraints, but luckily, after a few attempts, the gadget at `libc_base + 0xe3b01` seemed to work, thus resulting in a shell being spawned.
+Unfortunately, **we don't know the CPU state when the arbitrary address is executed**. Thus, we can't know if executed CPU context meets the gadget's constraints, but luckily, after a few attempts, the gadget at `libc_base + 0xe3b01` seemed to work, thus resulting in a shell being spawned.
 
 ```bash
 ./solve.py
