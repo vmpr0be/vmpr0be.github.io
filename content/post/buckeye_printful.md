@@ -213,9 +213,9 @@ def arb_write_ptr(address, value):
     r.sendlineafter(b"> ", payload)
 ```
 
-Initially I was going to use multiple stack writes to construct a [ROP](https://en.wikipedia.org/wiki/Return-oriented_programming) chain in order to spawn a shell, but I decided to try my luck with a one gadget.
+Initially I was going to use multiple stack writes to construct a [ROP](https://en.wikipedia.org/wiki/Return-oriented_programming) chain in order to spawn a shell, but I decided to try my luck with a one-gadget.
 
-To display the one gadgets and their constraints i used the [one_gadget](https://github.com/david942j/one_gadget) tool.
+To display the one-gadgets and their constraints i used the [one_gadget](https://github.com/david942j/one_gadget) tool.
 
 ```bash
 one_gadget libc6_2.31-0ubuntu9.9_amd64.so
@@ -236,7 +236,7 @@ constraints:
   [rdx] == NULL || rdx == NULL || rdx is a valid envp
 ```
 
-Unfortunately, **we don't know the CPU state when the arbitrary address is executed**. Thus, we can't know if executed CPU context meets the gadget's constraints, but luckily, after a few attempts, the gadget at `libc_base + 0xe3b01` seemed to work, thus resulting in a shell being spawned.
+Unfortunately, **we don't know enough about the CPU context when the arbitrary address is executed**. Thus, we can't be sure that the target one-gadget would work, but luckily, after a few attempts, the gadget at `libc_base + 0xe3b01` seemed to work, thus resulting in a shell being spawned.
 
 ```bash
 ./solve.py
