@@ -1,6 +1,6 @@
 Enjoyer of Windows kernel exploitation, reverse engineering, and hypervisors; recently started participating in CTFs.
 
-##### Team
+##### Teams
 - Hack@Sec
 - Th3 4rchi73cts
 
