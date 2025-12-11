@@ -5,6 +5,7 @@ Enjoyer of Windows kernel exploitation, reverse engineering, and hypervisors; re
 - Th3 4rchi73cts
 
 ##### Participations
+- 06/12/2025 | Cyber Odyssey 2025 Finals (👑)
 - 29/11/2025 | LakeCTF Quals 2025
 - 22/11/2025 | GlacierCTF 2025
 - 21/11/2025 | Patriot CTF 2025
