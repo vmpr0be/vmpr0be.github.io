@@ -5,6 +5,7 @@ Enjoyer of Windows kernel exploitation, reverse engineering, and hypervisors; re
 - Th3 4rchi73cts
 
 ##### Participations
+- 17/12/2025 | NahamCon Winter CTF
 - 12/12/2025 | niteCTF 2025
 - 11/12/2025 | NexHunt CTF
 - 06/12/2025 | Cyber Odyssey 2025 Finals (👑)
