@@ -2,7 +2,7 @@ Enjoyer of Windows kernel exploitation, reverse engineering, and hypervisors; re
 
 ##### Teams
 - Hack@Sec
-- Th3 4rchi73cts
+- Akasec
 
 ##### Participations
 - 17/12/2025 | NahamCon Winter CTF
