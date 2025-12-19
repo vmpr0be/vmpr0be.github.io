@@ -5,6 +5,7 @@ Enjoyer of Windows kernel exploitation, reverse engineering, and hypervisors; re
 - Akasec
 
 ##### Participations
+- 19/12/2025 | BSides Algiers 2025
 - 17/12/2025 | NahamCon Winter CTF
 - 12/12/2025 | niteCTF 2025
 - 11/12/2025 | NexHunt CTF
