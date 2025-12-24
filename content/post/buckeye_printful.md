@@ -7,6 +7,8 @@ categories = ["ctf"]
 
 ### Overview
 
+**This write-up won the BuckeyeCTF 2025 Writeup contest.**
+
 ![Printful banner](https://github.com/vmpr0be/vmpr0be.github.io/blob/main/static/images/buckeye_printful.png?raw=true)
 
 This challenge is essentially a black-box: the remote application's **source code and binary are not provided**, so I must discover its behavior and find the vulnerability by interacting with it remotely. All we’re given is the IP address and port.
