@@ -5,7 +5,7 @@ date = "2025-11-10"
 categories = ["ctf"]
 +++
 
-**This write-up won the BuckeyeCTF 2025 Writeup contest.**
+**This write-up won the BuckeyeCTF 2025 Write-up contest.**
 
 ### Overview
 
