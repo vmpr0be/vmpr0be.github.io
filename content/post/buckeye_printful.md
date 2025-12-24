@@ -5,9 +5,9 @@ date = "2025-11-10"
 categories = ["ctf"]
 +++
 
-### Overview
-
 **This write-up won the BuckeyeCTF 2025 Writeup contest.**
+
+### Overview
 
 ![Printful banner](https://github.com/vmpr0be/vmpr0be.github.io/blob/main/static/images/buckeye_printful.png?raw=true)
 
