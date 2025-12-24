@@ -6,7 +6,7 @@ Enjoyer of Windows kernel exploitation, reverse engineering, and hypervisors; re
 
 ##### Achievements
 - 44th place @ HTB University CTF 2025: Tinsel Trouble
-- BuckeyeCTF 2025 Writeup contest winner
+- BuckeyeCTF 2025 Write-up contest winner
 - 1st place @ CyberOdyssey CTF 2025 Finals
 - 1st place @ VoidBox CTF 2025
 - 1st place @ CyberOdyssey CTF 2025 Quals 
