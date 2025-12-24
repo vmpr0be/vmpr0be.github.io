@@ -4,7 +4,7 @@ Enjoyer of Windows kernel exploitation, reverse engineering, and hypervisors; re
 - Hack@Sec
 - Akasec
 
-#### Achievements
+##### Achievements
 - 44th place @ HTB University CTF 2025: Tinsel Trouble
 - BuckeyeCTF 2025 Writeup contest winner
 - 1st place @ CyberOdyssey CTF 2025 Finals
