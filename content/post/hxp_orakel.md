@@ -153,7 +153,7 @@ Next, using the stack buffer overflow we can redirect the `sbuf` (the pointer to
 
 Before `uart0` global variable redirection to `UART1` port MMIO address:
 
-![initial-sram-pre](https://github.com/vmpr0be/vmpr0be.github.io/blob/main/static/images/hxp-sram-layout-pre.png?raw=true)<br>
+![sram-layout-pre](https://github.com/vmpr0be/vmpr0be.github.io/blob/main/static/images/hxp-sram-layout-pre.png?raw=true)<br>
 *Pre-exploit SRAM layout diagram*
 
 After the redirection:
