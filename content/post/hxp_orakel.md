@@ -191,7 +191,7 @@ flag = b"hxp{" + r.recvuntil(b"}")
 log.info(f"Flag: {flag.decode()}")
 ```
 
-The full code can be found [here]([./orakel_von_hxp/solve.py](https://github.com/vmpr0be/vmpr0be.github.io/blob/main/static/solutions/orakel-von-hxp.py)
+The full code can be found [here](https://github.com/vmpr0be/vmpr0be.github.io/blob/main/static/solutions/orakel-von-hxp.py)
 
 ```bash
 ./solve.py
