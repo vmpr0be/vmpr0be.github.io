@@ -12,6 +12,7 @@ Enjoyer of Windows kernel exploitation, reverse engineering, and hypervisors; re
 - 1st place @ CyberOdyssey CTF 2025 Quals 
 
 ##### Participations
+- 29/12/2025 | HxP 39C3 CTF
 - 19/12/2025 | HTB University CTF 2025
 - 19/12/2025 | BSides Algiers 2025
 - 17/12/2025 | NahamCon Winter CTF
