@@ -142,7 +142,7 @@ static volatile uart_regs *uart1 = (uart_regs*)0x4000d000;
 
 These global variables are located in SRAM (`0x20000000-0x20010000`) which is a readable and **writable** memory region as seen in the provided linker script.
 
-```ld
+```c
 MEMORY {
         FLASH (rx) : ORIGIN = 0x00000000, LENGTH = 256K
         SRAM  (rw) : ORIGIN = 0x20000000, LENGTH = 64K
