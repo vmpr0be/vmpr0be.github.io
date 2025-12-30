@@ -151,12 +151,12 @@ MEMORY {
 
 Next, using the stack buffer overflow we can redirect the `sbuf` (the pointer to the `buf[0x80]`) to write the user-controlled data into `uart1` global variable. 
 
-Before `uart0` global variable redirection to `UART1` port MMIO address:
+This is the SRAM layout before `uart0` global variable redirection to `UART1` port MMIO address:
 
 ![sram-layout-pre](https://github.com/vmpr0be/vmpr0be.github.io/blob/main/static/images/hxp-sram-layout-pre.png?raw=true)<br>
 *Pre-exploit SRAM layout diagram*
 
-After the redirection:
+And this is after the redirection:
 
 
 ![sram-layout-post](https://github.com/vmpr0be/vmpr0be.github.io/blob/main/static/images/hxp-sram-layout-post.png?raw=true)<br>
