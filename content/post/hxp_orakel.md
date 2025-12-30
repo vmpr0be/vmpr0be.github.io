@@ -133,7 +133,7 @@ serial_fgets(sbuf, 0x200, uart0);
 
 This means if we can somehow swap `uart0` with `uart1` it will cause the `serial_fgets` function to read from `UART1` port instead of `UART0` and which results in the flag written to the buffer.
 
-But how can we do this? well first you must know that there's 2 global variables which store the address of the IO mapped address for `UART0` and `UART1` ports:
+But how can we do this? well first you must know that there are 2 global variables which store the address of the IO mapped address for `UART0` and `UART1` ports:
 
 ```C
 static volatile uart_regs *uart0 = (uart_regs*)0x4000c000;
