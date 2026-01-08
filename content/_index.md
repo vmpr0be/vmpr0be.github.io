@@ -1,9 +1,9 @@
 Enjoyer of Windows kernel exploitation, reverse engineering, and hypervisors; recently started participating in CTFs.
 
 ##### Teams
-- Akasec
-- Hack@Sec
 - r3kapig
+- Hack@Sec
+- Akasec
 
 ##### Achievements
 - 44th place @ HTB University CTF 2025: Tinsel Trouble
