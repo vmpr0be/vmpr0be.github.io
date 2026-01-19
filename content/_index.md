@@ -1,4 +1,4 @@
-Enjoyer of Windows kernel exploitation, reverse engineering, and hypervisors; recently started participating in CTFs.
+Enjoyer of Hypervisors, windows kernel and static binary analysis; recently started participating in CTFs.
 
 ##### Teams
 - r3kapig
