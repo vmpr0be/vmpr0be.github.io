@@ -13,6 +13,7 @@ Enjoyer of hypervisors, windows kernel and static binary analysis; recently star
 - 1st place @ CyberOdyssey CTF 2025 Quals 
 
 ##### Participations
+- 23/01/2026 | 0xL4ugh CTF V5
 - 10/01/2026 | UofTCTF 2026
 - 29/12/2025 | HxP 39C3 CTF
 - 19/12/2025 | HTB University CTF 2025
