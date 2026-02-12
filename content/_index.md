@@ -35,4 +35,3 @@ Enjoyer of hypervisors, windows kernel and static binary analysis; recently star
 - 12/09/2025 | DefCamp CTF 2025 Quals
 - 07/09/2025 | BlackHat MEA Quals CTF 2025
 - 04/09/2025 | Nullcon HackIM CTF Berlin 2025
-- 30/08/2025 | corCTF 
