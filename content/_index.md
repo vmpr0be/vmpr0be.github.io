@@ -12,6 +12,7 @@ Enjoyer of hypervisors, windows kernel and static binary analysis; recently star
 - 1st place @ CyberOdyssey CTF 2025 Quals 
 
 ##### Participations
+- 28/02/2026 | Srdnlen CTF 2026 Quals
 - 12/02/2026 | 0xFUN CTF 2026
 - 23/01/2026 | 0xL4ugh CTF V5
 - 10/01/2026 | UofTCTF 2026
