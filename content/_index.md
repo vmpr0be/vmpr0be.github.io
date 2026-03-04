@@ -11,6 +11,11 @@ Enjoyer of hypervisors, windows kernel and static binary analysis; recently star
 - 1st place @ VoidBox CTF 2025
 - 1st place @ CyberOdyssey CTF 2025 Quals 
 
+##### CVEs
+- CVE-2025-69806
+- CVE-2025-69808
+- CVE-2025-69809
+
 ##### Participations
 - 28/02/2026 | Srdnlen CTF 2026 Quals
 - 12/02/2026 | 0xFUN CTF 2026
