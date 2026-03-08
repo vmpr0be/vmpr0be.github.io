@@ -17,6 +17,7 @@ Enjoyer of hypervisors, windows kernel and static binary analysis; recently star
 - CVE-2025-69809
 
 ##### Participations
+- 07/03/2026 | DiceCTF 2026 Quals
 - 28/02/2026 | Srdnlen CTF 2026 Quals
 - 12/02/2026 | 0xFUN CTF 2026
 - 23/01/2026 | 0xL4ugh CTF V5
