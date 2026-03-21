@@ -9,6 +9,10 @@ enableRobotsTXT = true
 copyright = "&copy; Copyright 2025, vmpr0be"
 minify = true
 
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
 [menu]
   [[menu.main]]
     identifier = "posts"
