@@ -9,7 +9,8 @@ Enjoyer of hypervisors, windows kernel and static binary analysis; recently star
 - BuckeyeCTF 2025 Write-up contest winner
 - 1st place @ CyberOdyssey CTF 2025 Finals
 - 1st place @ VoidBox CTF 2025
-- 1st place @ CyberOdyssey CTF 2025 Quals 
+- 1st place @ CyberOdyssey CTF 2025 Quals
+- 2nd place @ ENSET CHALLENGE 2026 Quals
 
 ##### CVEs
 - CVE-2025-69806
@@ -17,6 +18,7 @@ Enjoyer of hypervisors, windows kernel and static binary analysis; recently star
 - CVE-2025-69809
 
 ##### Participations
+- 03/04/2026 | ENSET CHALLENGE 2026 Quals (🥈)
 - 21/03/2026 | TAMUctf 2026
 - 14/03/2026 | Midnight Flag CTF 2026 - EXECUTION
 - 07/03/2026 | DiceCTF 2026 Quals
