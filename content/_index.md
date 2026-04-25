@@ -21,6 +21,7 @@ Enjoyer of hypervisors, windows kernel and static binary analysis; recently star
 - CVE-2025-69809
 
 ##### Participations
+- 24/04/2026 | TRX CTF 2026
 - 18/04/2026 | NorthSec 2026 Quals (👑)
 - 03/04/2026 | ENSET CHALLENGE 2026 Quals (🥈)
 - 21/03/2026 | TAMUctf 2026
