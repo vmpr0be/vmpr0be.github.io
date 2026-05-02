@@ -16,9 +16,9 @@ Enjoyer of hypervisors, windows kernel and static binary analysis; recently star
 - 1st place @ NorthSec 2026 Quals
 
 ##### CVEs
-- CVE-2025-69806 | 7.5 HIGH
-- CVE-2025-69808 | 9.1 CRITICAL
-- CVE-2025-69809 | 9.8 CRITICAL
+- CVE-2025-69809 (9.8)
+- CVE-2025-69808 (9.1)
+- CVE-2025-69806 (7.5)
 
 ##### Participations
 - 24/04/2026 | TRX CTF 2026 (#5)
