@@ -6,7 +6,7 @@ Enjoyer of hypervisors, windows kernel and static binary analysis; recently star
 - Akasec
 
 ##### Achievements
-- Pwn author @ CITEFLAG 2026 Quals
+- Pwn author @ CITEFLAG 2026 Quals/Finals
 - Pwn author @ CYBrAIn CTF 2026
 - BuckeyeCTF 2025 Write-up contest winner
 - 1st place @ CyberOdyssey CTF 2025 Finals
