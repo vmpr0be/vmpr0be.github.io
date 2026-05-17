@@ -21,7 +21,7 @@ Enjoyer of hypervisors, windows kernel and static binary analysis; recently star
 - CVE-2025-69806 *- 7.5 high*
 
 ##### Participations
-- 17/03/2026 | ENSI CTF 2026 Finals (👑)
+- 17/05/2026 | ENSI CTF 2026 Finals (👑)
 - 03/05/2026 | ENSI CTF 2026 Quals (👑)
 - 24/04/2026 | TRX CTF 2026 (#5)
 - 18/04/2026 | NorthSec 2026 Quals (👑)
