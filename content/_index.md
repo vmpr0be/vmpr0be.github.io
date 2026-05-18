@@ -6,14 +6,14 @@ Enjoyer of hypervisors, windows kernel and static binary analysis; recently star
 - Akasec
 
 ##### Achievements
-- Pwn author @ CITEFLAG 2026 Quals/Finals
-- Pwn author @ CYBrAIn CTF 2026
-- BuckeyeCTF 2025 Write-up contest winner
-- 1st place @ VoidBox CTF 2025
 - 1st place @ CyberOdyssey CTF 2025 Quals & Finals
-- 2nd place @ ENSET CHALLENGE 2026 Quals
 - 1st place @ NorthSec 2026 Quals
 - 1st place @ ENSI CTF 2026 Quals & Finals
+- 1st place @ VoidBox CTF 2025
+- 2nd place @ ENSET CHALLENGE 2026 Quals
+- Pwn author @ CITEFLAG 2026 Quals & Finals
+- Pwn author @ CYBrAIn CTF 2026
+- BuckeyeCTF 2025 Write-up contest winner
 
 ##### CVEs
 - CVE-2025-69809 *- 9.8 critical*
