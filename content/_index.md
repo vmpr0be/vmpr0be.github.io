@@ -1,4 +1,4 @@
-Enjoyer of hypervisors, windows kernel and static binary analysis, participating in CTFs.
+Enjoyer of hypervisors, windows kernel and static binary analysis, participating in CTFs and research.
 
 ##### Teams
 - r3kapig
