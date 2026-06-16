@@ -17,10 +17,11 @@ Enjoyer of hypervisors, windows kernel, static binary analysis, participating in
 - BuckeyeCTF 2025 Write-up contest winner
 
 ##### CVEs
-- CVE-2026-46655 | [virtio-win](https://github.com/virtio-win/kvm-guest-drivers-windows) | 7.8 High
-- CVE-2025-69809 | [bareiron](https://github.com/p2r3/bareiron) | 9.8 Critical
-- CVE-2025-69808 | [bareiron](https://github.com/p2r3/bareiron) | 9.1 Critical
-- CVE-2025-69806 | [bareiron](https://github.com/p2r3/bareiron) | 7.5 High
+- CVE-2026-46655 | [VirtualBox](https://www.oracle.com/security-alerts/cspujun2026.html) | 3.2 Low
+- CVE-2026-46655 | [virtio-win](https://github.com/virtio-win/kvm-guest-drivers-windows/security/advisories/GHSA-qrhp-4mhp-hjwh) | 7.8 High
+- CVE-2025-69809 | [bareiron](https://github.com/vmpr0be/bareiron-vr) | 9.8 Critical
+- CVE-2025-69808 | [bareiron](https://github.com/vmpr0be/bareiron-vr) | 9.1 Critical
+- CVE-2025-69806 | [bareiron](https://github.com/vmpr0be/bareiron-vr) | 7.5 High
 
 ##### Participations
 - 17/05/2026 | ENSI CTF 2026 Finals (👑)
