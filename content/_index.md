@@ -14,6 +14,7 @@ Enjoyer of hypervisors, windows kernel, static binary analysis, participating in
 - Pwn author @ CITEFLAG 2026 Quals & Finals
 - Pwn author @ CYBrAIn CTF 2026
 - Pwn author @ Hackअस्त्र Quals & Finals
+- Pwn author @ R3CTF 2026
 - BuckeyeCTF 2025 Write-up contest winner
 
 ##### CVEs
