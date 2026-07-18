@@ -1,5 +1,5 @@
 baseURL = "https://vmpr0be.github.io"
-title = "vmpr0be's blog"
+title = "vmpr0be"
 languageCode = "en-us"
 theme = "devise"
 relativeURLs = false 
