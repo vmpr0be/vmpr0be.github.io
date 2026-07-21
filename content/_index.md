@@ -18,6 +18,7 @@ Enjoyer of hypervisors, windows kernel, static binary analysis, participating in
 - BuckeyeCTF 2025 Write-up contest winner
 
 ##### CVEs
+- CVE-2026-50392 | [Windows](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2026-50392) | 7.0 High
 - CVE-2026-57095 | [Windows](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-57095) | 6.2 Medium
 - CVE-2026-46977 | [VirtualBox](https://www.oracle.com/security-alerts/cspujun2026.html) | 3.2 Low
 - CVE-2026-46655 | [virtio-win](https://github.com/virtio-win/kvm-guest-drivers-windows/security/advisories/GHSA-qrhp-4mhp-hjwh) | 7.8 High
