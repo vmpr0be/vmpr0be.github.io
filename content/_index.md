@@ -1,4 +1,4 @@
-I tackle hypervisors, windows kernel, static binary analysis.
+Interested in hypervisors, windows kernel, static binary analysis.
 
 ##### Teams
 - r3kapig
