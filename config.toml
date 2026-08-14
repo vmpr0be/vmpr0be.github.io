@@ -31,7 +31,7 @@ minify = true
 [params]
   description = "vmpr0be's blog"
   header_title = "vmpr0be"
-  header_subtitle = "cybersecurity enthusiast"
+  header_subtitle = "low-level enthusiast"
   home_image = "images/avatar.png"
   recent_posts = 0
   
