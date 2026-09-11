@@ -18,6 +18,8 @@ Interested in hypervisors, windows kernel and static binary analysis.
 - BuckeyeCTF 2025 Write-up contest winner
 
 ##### CVEs
+- CVE-2026-71132 | [VirtualBox](https://www.zerodayinitiative.com/advisories/ZDI-26-640/) | 5.3 Medium
+- CVE-2026-71114 | [VirtualBox](https://www.zerodayinitiative.com/advisories/ZDI-26-641/) | 6.1 Medium
 - CVE-2026-69906 | [Windows](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69906) | 8.2 High
 - CVE-2026-69846 | [Windows](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69846) | 8.2 High
 - CVE-2026-83939 | [Windows](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83939) | 8.2 High
